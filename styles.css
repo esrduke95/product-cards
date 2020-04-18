@@ -1,3 +1,39 @@
 body {
-  background-color: firebrick;
+  background-color: lavender;
+}
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid lightblue 1px;
+  justify-content: center;
+  margin: 20px;
+  width: 400px;
+}
+.imgWrapper {
+  text-align: center;
+}
+img {
+  display: inline-flex;
+  margin: auto;
+  justify-content: center;
+}
+h2 {
+  text-align: center;
+}
+.avail {
+  background-color: darkgray;
+}
+.sectionOneContainer {
+  background-color: blue;
+}
+.sectionTwoContainer {
+  background-color: lightcoral;
+}
+.sectionThreeContainer {
+  background-color: royalblue;
 }
