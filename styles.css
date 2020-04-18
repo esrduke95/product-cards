@@ -1,32 +1,70 @@
 body {
-  background-color: lavender;
+  background-color: #CFD8DC;
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
 }
 #container {
   display: flex;
+}
+#wrapper {
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 .card {
-  border: solid lightblue 1px;
+  flex: 0 0 25%;
+  border: solid #607D8B 2px;
   width: 400px;
   margin: 10px;
+  box-shadow: 3px 3px 3px#607D8B;
+  background-color: #FFFFFF;
 }
 .imgWrapper {
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 h2 {
   text-align: center;
+  text-transform: uppercase;
+  color: #FFC107;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22pt;
 }
 .avail {
-  background-color: darkgray;
+  background-color: #212121;
+  color:#FFC107;
+  padding: 15px;
 }
 .sectionOneContainer {
-  background-color: blue;
+  text-align: justify;
 }
 .sectionTwoContainer {
-  background-color: lightcoral;
+  font-weight: bold;
+  text-align: justify;
 }
 .sectionThreeContainer {
-  background-color: royalblue;
+  font-weight: bold;
+  text-align: justify;
+}
+header {
+  margin: 15px;
+}
+footer {
+  background-color:#212121;
+  color:#FFC107;
+  padding: 15px;
+}
+.description {
+  padding: 15px;
+}
+.specs {
+  margin: 15px;
+}
+.prices {
+  margin: 15px;
 }
